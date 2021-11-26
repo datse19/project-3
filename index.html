@@ -5,7 +5,7 @@
 <title>Project 3</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link href="css/style.css" rel="stylesheet"> 
-<link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -21,16 +21,27 @@
     <form action="index.html" method="POST">
         <fieldset class="section-1">
             <legend>Contact Information</legend>
+            <div class="input-container">
             <label for="name">Full Name</label>
             <input type="text" id="name" name="user_name" placeholder="Required" required>
+            </div>
+            <div class="input-container">
             <label for="email">Email Address</label>
             <input type="text" id="email" name="user_email" placeholder="Required" required>
+            </div>
+            <div class="input-container">
             <label for="phone-number">Phone Number</label>
             <input type="text" id="phone-number" name="user_number" placeholder="(123)-456-7890">
+            </div>
+            <div class="input-container">
             <label for="address">Street Address</label>
             <input type="text" id="address" name="user_address">
+            </div>
+            <div class="input-container">
             <label for="city">City</label>
             <input type="text" id="city" name="user_city">
+            </div>
+            <div class="input-container">
             <label for="state">State</label>
             <select id="state" name="user_state">
                 <option value="choose state">Choose State</option>
@@ -90,8 +101,11 @@
                 <option value="Wisconsin">Wisconsin</option>
                 <option value="Wyoming">Wyoming</option>
             </select>
+            </div>
+            <div class="input-container">
             <label for="zip">Zip Code</label>
             <input type="text" id="zip" name="user_zip">
+            </div>
         </fieldset>
 
         <fieldset class="section-2">

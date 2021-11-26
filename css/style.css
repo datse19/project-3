@@ -1,6 +1,6 @@
 * {
     box-sizing: border-box; 
-    font-family: 'Open Sans', Times, serif sans-serif;
+    font-family: 'Roboto', Times, sans-serif;
 }
 
 header, nav {
@@ -43,10 +43,12 @@ input::placeholder {
 }
 
 .section-1 input:focus,
-select:focus {
+select:focus,
+textarea:focus {
     transform: scale(1.1);
     background-color: orange;
 }
+
 
 .section-1 input{
     text-align:right;
@@ -166,6 +168,7 @@ footer {
 
     nav {
         font-size: 1.4rem;
+        font-weight:bolder;
     }
 
     header {
@@ -181,13 +184,20 @@ footer {
     }
 
     .section-1 label {
-        display:inline-block;
+        display:block;
         padding: 5px 20px 0 0;
-        float: left;
-        margin: 10px;
+        float:left;
+        margin: 25px;
         width: 30%;
         font-size: .9rem;
+        height: auto;
 
+    }
+
+    .input-container {
+        display: flex;
+        flex-direction: row;
+        justify-content:initial;
     }
 
     .section-1 input {
@@ -200,9 +210,13 @@ footer {
     }
 
     #zip {
-        width: 30%;
+        width: 25%;
+        margin-left: -6px;
     }
 
+    input #zip {
+        width: 92%;
+    }
     p,
     .topic {
         font-size: 1rem;
