@@ -64,15 +64,15 @@ input {
 }
 
 p {
-    font-size: 1.2rem;
-    margin-top: 0;
-    margin-bottom: 25px;
+    font-size: 1.1rem;
+    margin: 0 10px 25px 10px;
 }
 
 .border {
     border-top: 5px solid black;
     padding: 2px;
     border-bottom: 2px solid grey;
+    margin: 0 10px;
 
 }
 
@@ -83,6 +83,7 @@ form {
 .section-1 {
     padding-bottom: 30px;
     border-bottom: 2px solid black;
+    margin: 2px;
 }
 
 .section-1 input, select {
@@ -136,7 +137,6 @@ textarea {
     background-color: rgb(228, 228, 228);
     border: none;
     border-radius: 5px;
-
 }
 
 
@@ -189,15 +189,11 @@ footer {
     }
 
     .section-1 label {
-        display:block;
         padding: 5px 20px 0 0;
         float:left;
-        margin: 25px;
+        margin: 25px 0;
         width: 30%;
         font-size: .9rem;
-        height: auto;
-        margin-right: 0;
-
     }
 
     .input-container {
