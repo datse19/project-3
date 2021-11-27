@@ -7,20 +7,23 @@ header, nav {
     text-align: center;
 }
 
-nav {
+.nav {
     font-size: 1.6rem;
     background-color: blueviolet;
     color: white;
     text-transform: uppercase;
     padding: 28px;
-    margin: -10px;
-    
+    position: sticky;
+    top: 0;
 }
 
 body {
-    width: 105%;
+    width: 100%;
     display: block;
     background-color: seashell;
+    margin-top: 0;
+    margin-left: 0;
+
 }
 
 h1 {
@@ -129,16 +132,17 @@ fieldset {
 }
 
 textarea {
-    margin: 15px 7px;
+    margin: 15px 14px;
     background-color: rgb(228, 228, 228);
     border: none;
+    border-radius: 5px;
 
 }
 
 
 .button{
     background-color:lightseagreen;
-    width: 100%;
+    width: 92%;
     height: 55px;
     color:white;
     font-size: 1.2rem;
@@ -146,6 +150,7 @@ textarea {
     border-radius: 5px;
     border: none;
     margin-top: 25px;
+    margin-left: 12px;
 }
 
 footer {
@@ -191,6 +196,7 @@ footer {
         width: 30%;
         font-size: .9rem;
         height: auto;
+        margin-right: 0;
 
     }
 
@@ -211,6 +217,7 @@ footer {
 
     #zip {
         width: 25%;
+        /* margin-right: 37%; */
         
     }
 
@@ -223,13 +230,14 @@ footer {
     }
 
     textarea   {
-        width: 98%;
+        width: 91%;
         height: 90px;
         border-radius: 5px;
     }
 
     .button {
         margin-top: 15px;
+        margin-bottom: 10px;
     }
 
     footer {
