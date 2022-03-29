@@ -20,7 +20,7 @@ header, nav {
 body {
     width: 100%;
     display: block;
-    background-color: seashell;
+    background-color: white;
     margin-top: 0;
     margin-left: 0;
 
@@ -48,8 +48,8 @@ input::placeholder {
 .section-1 input:focus,
 select:focus,
 textarea:focus {
-    transform: scale(1.1);
-    background-color: orange;
+    background-color: rgb(218, 233, 132);
+    outline: 3px solid rgb(126, 206, 73)
 }
 
 
@@ -69,9 +69,9 @@ p {
 }
 
 .border {
-    border-top: 5px solid black;
+    border-top: 10px solid rgb(25, 132, 233);
     padding: 2px;
-    border-bottom: 2px solid grey;
+    border-bottom: 5px solid rgb(136, 101, 101);
     margin: 0 10px;
 
 }
